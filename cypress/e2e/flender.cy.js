@@ -77,7 +77,7 @@ describe('Create Protocol', function () {
 
         });
     });
-        cy.contains('View report').should('be.visible').click() // To view the reports that you enetered
+        cy.contains('View report').should('be.visible').click() // To view the reports that you entered
 
     })
 })
