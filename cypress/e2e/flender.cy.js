@@ -21,7 +21,7 @@ describe('Create Protocol', function () {
         cy.get('.toast-message').should('contain', 'Access denied') 
     })
 
-    it.only('Create Protocol', function () {
+    it('Creating Protocol', function () {
 
         cy.get('#username', timeOut).should('be.visible').type('t-sairel')
         cy.get('#password', timeOut).should('be.visible').type('123')
